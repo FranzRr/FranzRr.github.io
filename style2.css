@@ -1,0 +1,24 @@
+body{
+    background-image: url(fondo2.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.caja1{
+    height: 100px;
+    margin: auto auto;
+    background-image: url(nyancat.gif);
+    background-position: center;
+    background-size:contain;
+}
+.imagen2{
+    width: 300px;
+    display: block;
+    margin-left: auto;  
+    margin-right: auto;
+}
+.texto{
+    height: 300px;
+    font-size: 40px;
+}

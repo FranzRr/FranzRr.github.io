@@ -1,0 +1,99 @@
+.pregunta{
+    font-family:monospace;
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    background-image: url(fondo2.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.caja1{
+    width: 700px;
+    height: 300px;
+    margin: auto auto;
+}
+.caja2{
+    width: 700px;
+    height: 300px;
+    margin: auto auto;
+}
+.boxflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.botonsi{
+    width: 95px;
+    height: 30px;
+    border-bottom: solid greenyellow 5px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+    margin-right: 10px;
+}
+.botonno{
+    width:95px;
+    height: 30px;
+    border-bottom: solid greenyellow 5px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+}
+.botonsi:hover, .botonno:hover, .b1:hover, .b2:hover, .b3:hover, .b4:hover{
+    border-bottom-color: tomato;
+    background-color: #424642;
+    color:gold;
+}
+.caja1, .caja2{
+    /* border: blue solid 3px; */
+    display: flex;   
+}
+.b1{
+    position: relative;
+    left:10vh;
+    top: auto;
+    margin-top:30vh;
+    visibility: hidden;
+}
+.b2{
+    position: relative;
+    left:40vh;
+    top: auto;
+    margin-top: 10vh;
+    visibility: hidden;
+}
+.b3{
+    position: relative;
+    left:15vh;
+    top: auto;
+    margin-top: 10vh;
+    visibility: hidden;
+
+}
+.b4{
+    position: relative;
+    left:50vh;
+    top:auto;
+    margin-top: 30vh;
+    visibility: hidden;
+}
+.b1,.b2,.b3,.b4{
+    width: 95px;
+    height: 30px;
+    border-bottom: solid greenyellow 5px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+}
+
