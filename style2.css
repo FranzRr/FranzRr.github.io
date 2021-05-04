@@ -1,7 +1,11 @@
+*{
+    color: white;
+}
 body{
-    background-image: url(fondo2.png);
+    /* background-image: url(fondo2.png);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background-color: #2C2C2C;
     position: relative;
     overflow: hidden;
 }
