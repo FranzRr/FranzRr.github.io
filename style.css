@@ -31,6 +31,20 @@ body{
     margin-top: 30px;
 
 }
+.volver{
+    width: 170px;
+    height: 45px;
+    border-bottom: groove #82CAAF 7px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+}
+.volver:hover{
+    background-color: #424642;
+    border-bottom: dotted #B676B1 7px;
+}
 .botonsi{
     width: 95px;
     height: 30px;

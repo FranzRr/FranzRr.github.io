@@ -1,0 +1,41 @@
+h1{
+    width: 500px;
+    height: 70px;
+    margin: auto auto;
+    text-align: center;
+    margin-top: 15vh ;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    background-color: #2C2C2C;
+}
+.b1{
+    width: 200px;
+    height: 70px;
+    font-size: 19px;
+    border-bottom: groove #82CAAF 7px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+}
+.b1:hover{
+    background-color: #424642;
+    border-bottom: dotted #B676B1 7px;
+}
+.caja{
+    width: 30vh;
+    height: 70px;
+    border: solid white 3px;
+    margin: auto auto;
+    margin-top: 4vh;
+    padding-bottom: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.caja1{
+    width: 200px;
+    height: 70px;
+}
