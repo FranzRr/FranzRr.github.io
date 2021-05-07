@@ -1,25 +1,30 @@
 h1{
-    width: 500px;
+    width: 34vh;
     height: 70px;
     margin: auto auto;
     text-align: center;
     margin-top: 15vh ;
     color: white;
     font-family: 'Press Start 2P', cursive;
+    font-size:4vh;
 }
 body{
-    background-color: #2C2C2C;
+    background-image: radial-gradient(circle,#A67B7B,black);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
 }
 .b1{
-    width: 200px;
-    height: 70px;
-    font-size: 19px;
+    width: 27vh;
+    height: 9vh;
+    font-size: 2vh;
     border-bottom: groove #82CAAF 7px;
     background-color: black;
     color:white;
     cursor: pointer;
     border-top-left-radius: 10px;
     border-top-right-radius:10px ;
+
 }
 .b1:hover{
     background-color: #424642;
@@ -27,7 +32,7 @@ body{
 }
 .caja{
     width: 30vh;
-    height: 70px;
+    height: 10vh;
     border: solid white 3px;
     margin: auto auto;
     margin-top: 4vh;
@@ -36,6 +41,8 @@ body{
     justify-content: center;
 }
 .caja1{
-    width: 200px;
-    height: 70px;
+    width: 20vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
 }

@@ -10,8 +10,8 @@ body{
     overflow: hidden;
 }
 .volver{
-    width: 170px;
-    height: 45px;
+    width: 20vh;
+    height: 6vh;
     border-bottom: groove #82CAAF 7px;
     background-color: black;
     color:white;
@@ -37,6 +37,6 @@ body{
     margin-right: auto;
 }
 .texto{
-    height: 300px;
-    font-size: 40px;
+    height: 20vh;
+    font-size: 4vh;
 }
