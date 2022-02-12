@@ -15,7 +15,7 @@ body{
     height: 100vh;
 }
 .b1{
-    width: 27vh;
+    width: 27vw;
     height: 9vh;
     font-size: 2vh;
     border-bottom: groove #82CAAF 7px;
@@ -31,18 +31,21 @@ body{
     border-bottom: dotted #B676B1 7px;
 }
 .caja{
-    width: 30vh;
+    width: 30vw;
     height: 10vh;
     border: solid white 3px;
     margin: auto auto;
     margin-top: 4vh;
+    padding-top:12vh;
     padding-bottom: 40vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .caja1{
-    width: 20vh;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
+    margin-top: 3vh;
+    width: 27vw;
+    height: 9vh;
+    
 }
