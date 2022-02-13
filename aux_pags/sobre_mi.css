@@ -13,3 +13,8 @@
     background-color: #424642;
     border-bottom: dotted #B676B1 7px;
 }
+
+.caja_general{
+    display: flex;
+    flex-wrap: wrap;
+}
