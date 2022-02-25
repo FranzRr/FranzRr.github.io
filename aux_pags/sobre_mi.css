@@ -1,5 +1,9 @@
+body{
+    background-color: #2C2C2C;
+    color: white;
+}
 .b1{
-    width: 27vh;
+    width: 24vw;
     height: 9vh;
     font-size: 2vh;
     border-bottom: groove #82CAAF 7px;
@@ -9,12 +13,42 @@
     border-top-left-radius: 10px;
     border-top-right-radius:10px ;
 }
+
 .b1:hover{
     background-color: #424642;
     border-bottom: dotted #B676B1 7px;
 }
+.principal{
+    grid-area: principal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.descripcion{
+    padding-top: 4vh;
+    grid-area: descripcion;
+    font-size: 20px;
+}
+.skills{
+    grid-area: skills;
+    font-size: 20px;
+}
 
 .caja_general{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "principal descripcion descripcion"
+    "principal descripcion descripcion"
+    "principal skills skills";
+    column-gap: 1vw;
+    row-gap: 1vw;
+}
+.imagen{
+    border-radius: 100%;
+    width: 25vw;
+    padding-top: 4vh;
+    padding-bottom: 10px;
 }
