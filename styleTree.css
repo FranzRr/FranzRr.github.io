@@ -44,7 +44,20 @@ body{
 }
 .caja1{
     margin-top: 3vh;
-    width: 27vw;
-    height: 9vh;
+    width: auto;
     
 }
+
+@media only screen and (max-width: 600px){
+    .caja{
+        width: 250px;
+    }
+    .b1{
+        width: 200px;
+    }
+    .caja1{
+        width: auto;
+    }
+  
+    
+  }
