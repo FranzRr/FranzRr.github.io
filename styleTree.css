@@ -1,3 +1,6 @@
+*{
+    font-family: cursive;
+}
 h1{
     width: 34vh;
     height: 70px;
@@ -31,21 +34,23 @@ body{
 }
 .caja{
     width: 30vw;
-    height: 10vh;
+    height: 50vh;
     border: solid white 3px;
     margin: auto auto;
     margin-top: 4vh;
-    padding-top:12vh;
-    padding-bottom: 40vh;
+    padding-bottom: 3vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    overflow-y: scroll;
+    /* position: relative; */
+    z-index: 1;
+    
 }
 .caja1{
     margin-top: 3vh;
     width: auto;
-    
 }
 
 @media only screen and (max-width: 600px){
@@ -58,6 +63,53 @@ body{
     .caja1{
         width: auto;
     }
-  
-    
+   
   }
+/* tooltip */
+.tooltiptext{
+  visibility: hidden;
+  width: 30vw;
+  background-color: #424642;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 9;
+  font-size: 2vh;
+}
+.caja1:hover .tooltiptext{
+  visibility: visible;
+}
+
+/* scroll */
+/* Tamaño del scroll */
+.caja::-webkit-scrollbar {
+  width: 12px;
+}
+
+  /* Estilos barra (thumb) de scroll */
+.caja::-webkit-scrollbar-thumb {
+  background: #1ABC9C;
+  border-radius: 4px;
+}
+
+.caja::-webkit-scrollbar-thumb:active {
+  background-color: #12856e;
+}
+
+.caja::-webkit-scrollbar-thumb:hover {
+  background: #12856e;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+  /* Estilos track de scroll */
+.caja::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.caja::-webkit-scrollbar-track:hover, 
+.caja::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
