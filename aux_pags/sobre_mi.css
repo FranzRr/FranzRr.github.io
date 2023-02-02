@@ -52,3 +52,32 @@ body{
     padding-top: 4vh;
     padding-bottom: 10px;
 }
+
+/* version movil */
+@media only screen and (max-width: 800px){
+    .caja_general{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 2fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "descripcion descripcion principal"
+        "descripcion descripcion vacio"
+        "skills skills vacio";
+    }
+    .imagen{
+        width: 30vw;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 5vh;
+    }
+    .b1{
+        /* position: absolute; */
+        margin-top: 25px
+    }
+
+
+}
+
+
+
+
